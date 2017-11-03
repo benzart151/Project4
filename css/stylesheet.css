@@ -4,7 +4,11 @@
 
 /* ID'S */
 #main{
-	background-image: url(../Images/bricks-wall-stones-structure-37865.jpeg)
+	background-color:crimson;
+    height: 9000px;
+    width: 90%;
+    margin: auto;
+  
 }
 
 #navigation{
@@ -16,6 +20,7 @@
 	background-color: antiquewhite;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	opacity: 0.8;
+    float: left
 }
 
 #navtext{
@@ -26,6 +31,10 @@
 }
 
 #logo{
+    position:fixed;
+    top: 5px;
+    left 100px;
+    z-index: 99999;
 
 }
 
@@ -34,11 +43,20 @@
 }
 
 #sidebar{
-	
+    background-color: aqua;
+    width: 30%;
+    height: 1080px;
+    float:left;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 }
 
 #mainContent{
-	
+    background-color: azure;
+    width: 70%;
+    height: 1080px;
+    float: left;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	margin-top: 0;
 }
 
 #footer{
