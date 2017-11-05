@@ -1,14 +1,12 @@
 @charset "UTF-8";
 /* CSS Document */
 
-
 /* ID'S */
 #main{
 	background-color:crimson;
     height: 9000px;
     width: 90%;
     margin: auto;
-  
 }
 
 #navigation{
