@@ -30,15 +30,33 @@ a:hover, a:active {
 }
 
 #navtext{
-	margin-top: -20px;
+	margin-top: 0px;
 	right: 100px;
 	text-align: right;
 	padding-right: 100px;
-	vertical-align: center;
+	vertical-align: middle;
 }
 
-#navList li{
+.social{
+	vertical-align: middle;
+	z-index: inherit;
+	position: relative;
+	left: 200px;
+	top: -50px;
+}
+
+.social li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.navList{
+	
 	float: right;
+}
+
+.navList li{
 	list-style: none;
 	display: inline;
 	margin: -2px;
@@ -73,7 +91,9 @@ a:hover, a:active {
 }
 
 #logoText{
-	margin-top: -15%;
+	position: relative;
+	top: -60px;
+
 }
 
 #content{
@@ -102,7 +122,7 @@ a:hover, a:active {
     z-index: 4;
 }
 
-#mainText{
+.mainText{
 	margin: 5%;
     color: #009246;
     background-color: rgba(240,240,237,0.8);
@@ -114,11 +134,11 @@ a:hover, a:active {
     border-radius: 5px;
 }
 
-#mainText p{
+.mainText p{
     text-align: justify;
     font-size: 30px;
 }
-#mainText h1{
+.mainText h1{
     text-align: center;
     font-size: 40px;
 }
@@ -140,8 +160,7 @@ a:hover, a:active {
     text-align: center;
     vertical-align: middle;
     float: left;
-    z-index: 5;
-     
+    z-index: 5;    
 }
 
 
