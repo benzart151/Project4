@@ -143,6 +143,17 @@ a:hover, a:active {
     font-size: 40px;
 }
 
+.delivery{
+	position: relative;
+	left: -25px;
+}
+
+.delivery li{
+	list-style: none;
+	display: inline;
+	
+}
+
 #sidebarText{
 	margin-top: 50%;
 	margin-left:5%;
