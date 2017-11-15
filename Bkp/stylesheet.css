@@ -82,8 +82,7 @@ a:hover, a:active {
 
 #logoText{
 	position: relative;
-	top: -70px;
-
+	top: -30px;
 }
 
 #sidebar{
@@ -98,6 +97,7 @@ a:hover, a:active {
 	font-weight: 600;
 }
 
+
 .delivery li{
 	list-style: none;
 	display: inline;
@@ -108,12 +108,6 @@ a:hover, a:active {
 	left: -25px;
 }
 
-#sidebarText{
-	margin-top: 50%;
-	margin-left:5%;
-	margin-right: 5%;
-	margin-bottom: 5%;
-}
 
 /* Main Window Right */
 #main{

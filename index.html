@@ -7,35 +7,39 @@
 </head>
 
 <body style="background-color: #ce2b37;">
-   <!--Navigation Bar-->
-    <div class="navigation">
-        	<div id="navtext">
-           	
-            	<div id="phone">
-                	<h2><a href="tel:+3059428997">(305) 942-8997</a></h2>
-                	
-               		<div class="social">
-           	    	<ul>
-           	    		<li><a href="www.facebook.com" target="_blank"><img src="Images/facebook.svg" height="30px" alt="facebook"/></a></li>
-           	    		<li><a href="www.twitter.com" target="_blank"><img src="Images/twitter.svg" height="30px" alt="twitter"/></a></li>
-           	    		<li><a href="www.instagram.com" target="_blank"><img src="Images/instagram.svg" height="30px" alt="instagram"/></a></li>
-           	    	</ul>            	    	        	    
-           	    	</div>
-                </div>
+   <!--Left side of Navigation Social Media Links-->
+<div class="navbarLeft">
+    <div class="social">
+        <ul>
+            <li><a href="www.facebook.com" target="_blank"><img src="Images/facebook.svg" height="30px" alt="facebook"/></a></li>
+           	<li><a href="www.twitter.com" target="_blank"><img src="Images/twitter.svg" height="30px" alt="twitter"/></a></li>
+           	<li><a href="www.instagram.com" target="_blank"><img src="Images/instagram.svg" height="30px" alt="instagram"/></a></li>
+        </ul>
+    </div>
+</div>
 
-           	    <div class="navList">
-        			<ul>
-           				<li><a href="index.html">Home</a></li>
-        				<li>
-        				<a href="menu.html" class="dropbtn">Menu</a>
-        				</li>
-        				<li><a href="testimonials.html">Testionials</a> </li>        				
-                        <li><a href="careers.html">Careers</a></li>
-        			</ul>
-        		</div>   
-        	
-        	</div>
-    	</div>
+<!--Navigation with Dropdown for Menu-->
+<div class="navbar">
+    <a href="careers.html">Careers</a>
+    <a href="testimonials.html">Testimonials</a>
+    <!--deopdown Menu-->
+  <div class="dropdown">
+    <button class="dropbtn">Menu 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Appetizers - Soups - Sides</a>
+      <a href="#">Salads</a>
+      <a href="#">Pizza</a>
+      <a href="#">Sandwiches</a>
+      <a href="#">Calzones - Stromboli</a>
+      <a href="#">Pastas - Entrees</a>
+      <a href="#">Beverages - Deserts</a>
+    </div>
+      <!--END Dropdown Menu-->
+  </div>     
+    <a href="index.html">Home</a>
+</div>
     
     <!--Main Site Content Left Background and content-->
 	<div id="main">	
