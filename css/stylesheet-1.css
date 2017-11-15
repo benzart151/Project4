@@ -1,8 +1,17 @@
 /** Left Navigation Bar **/
 <style>
-    .navbarLeft {
-       float:left;
-    }
+.navbarLeft {
+    float:left;
+   }
+.social{
+    position: absolute;
+    top: 1px;
+}
+.social li{
+    list-style: none;
+    display: inline;
+    margin-left: 12px;
+}
 
 /**Right Navigation**/    
 .navbar {
@@ -37,7 +46,7 @@
     background-color: inherit;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn {
+.navbar a:hover, .social a:hover, .social li:hover, .dropdown:hover .dropbtn {
     background-color: #ce2b37;
 }
 
