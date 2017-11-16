@@ -175,6 +175,15 @@ a:hover, a:active {
     font-size: 40px;
 }
 
+.careers h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+.careers p{
+    font-size: 18px;
+}
+
 /** Footer **/
 #footer{
 	width: 100%;
