@@ -235,3 +235,26 @@ a:hover, a:active {
     font-family: Arial;
     text-align: center;
 }
+
+/**Testimonials Div**/
+.testimonials{
+    font-family: Arial;
+}
+.testimonials p{
+    font-size: 14px;
+    color: #009246;
+    font-weight: 400;
+    
+}
+.testimonials h2{
+    font-size: 26px;
+    font-weight: 700;
+}
+.testimonials h3{
+    font-size: 18px;
+    font-weight: 600;
+}
+.testimonials strong{
+    font-weight: 700;
+    color: #ce2b37;
+}
