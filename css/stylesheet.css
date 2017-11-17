@@ -195,7 +195,8 @@ a:hover, a:active {
 
 .menu h3{
     font-family: Arial;
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: 600;
     color: #009246;
 }
 
